@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <!-- Border -->
+    <stroke
+        android:color="@color/primary_color"
+        android:width="3dp" />
+
+    <!-- Fully Rounded Corners -->
+    <!-- Set radius to a value close to half the height to get a pill shape -->
+    <corners android:radius="50dp" />
+
+    <!-- Optional: Background Color -->
+    <solid android:color="#FFFFFF" />
+</shape>

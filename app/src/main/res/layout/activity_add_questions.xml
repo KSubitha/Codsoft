@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddQuestions">
+
+
+
+
+
+    <!-- Question EditText -->
+
+    <!-- Option 1 EditText -->
+
+    <!-- Option 1 EditText -->
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter question"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextOption1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/editTextQuestion"
+    app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Option 2 EditText -->
+    <EditText
+        android:id="@+id/editTextOption2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextOption1"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Option 3 EditText -->
+    <EditText
+        android:id="@+id/editTextOption3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextOption2"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Option 4 EditText -->
+    <EditText
+        android:id="@+id/editTextOption4"
+        android:layout_width="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextOption3"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Correct Option EditText -->
+    <EditText
+        android:id="@+id/editTextCorrectOption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Correct Option"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextOption4"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/background_btn"
+        android:fontFamily="@font/chakrapetchbold"
+        android:padding="8dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="32dp"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="@color/second_color"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
